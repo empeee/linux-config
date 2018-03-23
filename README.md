@@ -18,6 +18,9 @@ git config --global push.default simple
 ```
 
 ## base.sh
+```
+~/linux-config/base.sh
+```
 - Installs and configures my commonly used tools:
   - vim
   - tmux
@@ -35,4 +38,7 @@ vim
 :q
 ```
 ## docker.sh
+```
+~/linux-config/docker.sh
+```
 Runs the Debain docker instructions [here](https://docs.docker.com/install/linux/docker-ce/debian/)
