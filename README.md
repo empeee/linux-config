@@ -4,9 +4,9 @@ Set of scripts to get to my working config from a bare-bones Linux install. Curr
 ## To Start
 Obviously you need git installed to clone this repo to being with, then clone this repo.
 ```
-sudo apt update
-sudo apt upgrade
-sudo apt install git
+sudo apt update && \
+sudo apt upgrade -y && \
+sudo apt install git -y && \
 git clone https://github.com/empeee/linux-config ~/linux-config
 ```
 
