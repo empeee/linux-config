@@ -1,8 +1,8 @@
 # linux-config
-Set of scripts to get to my working config from a bare-bones Linux install. Currently only tested with Debian 9.
+Set of scripts to get to my working config from a bare-bones Linux install. Currently only tested with Debian 9. I hope to make it work with other Debian based distros as well (Ubuntu, Linux Mint, specifically)
 
 ## To Start
-Obviously you need git installed to clone this repo to being with, then clone this repo.
+Obviously I need git installed to clone this repo to being with, then clone this repo. Run the following command:
 ```
 sudo apt update && \
 sudo apt upgrade -y && \
@@ -18,9 +18,11 @@ git config --global push.default simple
 ```
 
 ## base.sh
+Run:
 ```
 ~/linux-config/base.sh
 ```
+This does the following:
 - Installs and configures my commonly used tools:
   - vim
   - tmux
@@ -30,7 +32,7 @@ git config --global push.default simple
 - Clones some necessary git repos
 - Runs supporting setup scripts
 
-After running you should open up vim and install plugins.
+After running this script, open up vim and install plugins.
 ```
 vim
 :PluginInstall
@@ -38,7 +40,15 @@ vim
 :q
 ```
 ## docker.sh
+Run:
 ```
 ~/linux-config/docker.sh
 ```
 Runs the Debain docker instructions [here](https://docs.docker.com/install/linux/docker-ce/debian/)
+
+## jekyll.sh
+Run:
+```
+~/linux-config/jekyll.sh
+```
+Installs necessary packages for jekyll on github pages work.
