@@ -32,13 +32,6 @@ This does the following:
 - Clones some necessary git repos
 - Runs supporting setup scripts
 
-After running this script, open up vim and install plugins.
-```
-vim
-:PluginInstall
-:q
-:q
-```
 ## docker.sh
 Run:
 ```
@@ -46,9 +39,3 @@ Run:
 ```
 Runs the Debain docker instructions [here](https://docs.docker.com/install/linux/docker-ce/debian/)
 
-## jekyll.sh
-Run:
-```
-~/linux-config/jekyll.sh
-```
-Installs necessary packages for jekyll on github pages work.
