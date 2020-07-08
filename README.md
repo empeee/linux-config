@@ -39,3 +39,14 @@ Run:
 ```
 Runs the Debain docker instructions [here](https://docs.docker.com/install/linux/docker-ce/debian/)
 
+## crostini.sh
+Installs some Crostini-specific stuff:
+ - terminator
+ - python3
+ - pip3
+ - idle3 
+ - numpy, scipy, matplotlib, ipython, jupyter, pandas, sympy, nose
+ - GIMP
+ - VS Code
+
+VS Code instructions from [here](https://www.reddit.com/r/Crostini/wiki/howto/install-vscode)
